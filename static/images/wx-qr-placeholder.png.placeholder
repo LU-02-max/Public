@@ -1,0 +1,10 @@
+# 客服微信二维码占位图
+
+请将真实的客服微信二维码图片命名为 `wx-qr-placeholder.png` 并放置在 `static/images/` 目录下。
+
+或者修改 `pages/customerService/customerService.vue` 第 26 行，将占位图路径替换为实际的二维码图片路径。
+
+示例：
+```vue
+<image class="wx-qr" src="/static/images/your-actual-wx-qr.png" mode="aspectFit"></image>
+```

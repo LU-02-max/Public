@@ -1,0 +1,164 @@
+{
+	"pages": [
+	{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "登录",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/welcome/welcome",
+		"style": {
+			"navigationBarTitleText": "欢迎",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/customerService/customerService",
+		"style": {
+			"navigationBarTitleText": "客服微信",
+			"navigationStyle": "custom"
+		}
+	},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "壮游记录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path": "pages/sub_detail/chat/detail",
+			"style": {
+				"navigationBarTitleText": "对话详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/explore/explore",
+			"style": {
+				"navigationBarTitleText": "探索",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/study/study",
+			"style": {
+				"navigationBarTitleText": "研学",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/sub_detail/home/family",
+			"style": {
+				"navigationBarTitleText": "家庭成员"
+			}
+		},
+		{
+			"path": "pages/sub_detail/home/sos-detail",
+			"style": {
+				"navigationBarTitleText": "SOS 详情",
+				"navigationBarBackgroundColor": "#FF5252"
+			}
+		},
+		{
+			"path": "pages/sub_profile/editProfile",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/sub_profile/bindDevice",
+			"style": {
+				"navigationBarTitleText": "绑定设备",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		  "path": "pages/sub_profile/radarConfig",
+		  "style": {
+		    "navigationBarTitleText": "多维能力设置",
+		    "enablePullDownRefresh": false
+		  }
+		},
+		{
+			"path": "pages/sub_profile/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/help/help",
+			"style": {
+				"navigationBarTitleText": "帮助与支持"
+			}
+		},
+		{
+			"path": "pages/sub_profile/agreement",
+			"style": {
+				"navigationBarTitleText": "协议详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "话痨同桌",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F7F7F7"
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#6DBEF6",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"fontSize": "14px",
+		"fontWeight": "bold",
+		"height": "56px",
+		"iconSize": "20px",
+		"spacing": "3px",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/chat/chat",
+				"text": "壮游记录",
+				"iconPath": "static/tabbar/chat.png",
+				"selectedIconPath": "static/tabbar/chat-active.png"
+			},
+			{
+				"pagePath": "pages/explore/explore",
+				"text": "探索",
+				"iconPath": "static/tabbar/explore.png",
+				"selectedIconPath": "static/tabbar/explore-active.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/tabbar/profile.png",
+				"selectedIconPath": "static/tabbar/profile-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
